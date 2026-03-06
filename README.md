@@ -151,46 +151,6 @@ centerdistill/
 ├── setup.py                        Pip-installable package
 └── LICENSE                         MIT
 ```
-
----
-
-## Cell Coverage Audit
-
-Every code cell in the notebook is accounted for in the module/script layer:
-
-| Notebook Cell | Content | Covered By |
-|:---:|:--------|:-----------|
-| C02 | Install packages | `requirements.txt` |
-| C04 | Mount Drive + download MLQA | `run_pipeline.py` — step 1 |
-| C06 | Fixed config + seed locking | `config.py` — `BASE_CFG`, `lock_seed()` |
-| C08 | Data helpers | `data.py` — `load_*`, `make_tokenise_fn`, `evaluate_qa` |
-| C10 | Cache SQuAD2 baseline | `run_pipeline.py` — step 2 |
-| C12 | Evaluate baseline en-en | `run_pipeline.py` — step 7 |
-| C14 | LaBSE embeddings | `cluster.py` — `encode_questions()` |
-| C16 | Derive K, λ, τ, temperature (3b) | `config.py` — `derive_hyperparameters()` |
-| C18 | Cluster quality, Table 2, Figs 4+5 | `cluster.py` + `visualize.py` |
-| C20 | CenterDistill training | `model.py` + `run_pipeline.py` — step 6 |
-| C22 | Patch to HF format (9b) | `model.py` — `patch_to_hf_qa_model()` |
-| C24 | Error analysis | `evaluate.py` — `error_analysis()` |
-| C26 | Evaluate en-en | `run_pipeline.py` — step 7 |
-| C28 | Evaluate en-es | `run_pipeline.py` — step 7 |
-| C30 | Evaluate en-de (11b) | `run_pipeline.py` — step 7 |
-| C32 | Behaviour policy evaluation (12) | `evaluate.py` — `evaluate_behaviour()` |
-| C34 | Table 3: all baselines (13) | `scripts/baselines.py` |
-| C36 | Table 4: K ablation (14) | `scripts/ablation.py` |
-| C38 | Figure 6 | `visualize.py` — `plot_system_performance()` |
-| C40 | Figure 7 | `visualize.py` — `plot_metrics_heatmap()` |
-| C42 | Silhouette sweep figure | `visualize.py` — `plot_silhouette_sweep()` |
-| C44 | K ablation figure (draft) | `visualize.py` — `plot_k_ablation()` |
-| C46 | K ablation figure (publication) | `visualize.py` — `plot_k_ablation()` |
-| C48 | LaTeX tables (19) | `scripts/generate_latex.py` |
-| C50 | Final summary + save all (20) | `run_pipeline.py` — step 9 |
-| C52 | Data leakage check | `scripts/check_leakage.py` |
-| C54 | Results loader + plot setup | `scripts/evaluate_only.py` |
-| C55 | Table 7 confusion matrix + print all | `scripts/evaluate_only.py` |
-
-**28 / 28 cells covered. Zero gaps.**
-
 ---
 
 ## Hyperparameters
