@@ -1,6 +1,6 @@
 <div align="center">
 
-# CenterDistill
+# CenterDistill: Weakly-Supervised Distillation for Ambiguity-Aware Cross-Lingual QA
 
 ### Weakly-Supervised Distillation for Ambiguity-Aware Cross-Lingual Question Answering
 
