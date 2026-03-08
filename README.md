@@ -6,7 +6,7 @@
 
 [![EAAAI 2026](https://img.shields.io/badge/EAAAI-2026-4B6FA8?style=for-the-badge)](https://eaaai.org)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![License: Apache 2](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
+[![License: Apache2](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
 [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/hacky1997/centerdistill/blob/main/notebooks/CenterDistill_Colab.ipynb)
 
 **Somyajit Chakraborty¹ · Sayak Naskar² · Soham Paul² · Angshuman Jana² · Nilotpal Chakraborty² · Avijit Gayen²·³**
