@@ -8,8 +8,8 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License: Apache2](https://img.shields.io/badge/license-Apache%202-blue?style=for-the-badge)](LICENSE)
 [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/hacky1997/centerdistill/blob/main/notebooks/CenterDistill_Colab.ipynb)
-[![arXiv](XXXX.XXXX](https://arxiv.org/abs/XXXX.XXXX)
-[![DOI](XXXX.XXXX](https://doi.org/XXXX.XXXX)
+[![arXiv](https://img.shields.io/badge/)](https://arxiv.org/abs/2504.17894)
+[![DOI](https://img.shields.io/badge/))](https://doi.org/XXXX.XXXX)
 
 **Somyajit Chakraborty¹ · Sayak Naskar² · Soham Paul² · Angshuman Jana² · Nilotpal Chakraborty² · Avijit Gayen²·³**
 
@@ -36,7 +36,7 @@ No ambiguity labels are required. The training signal comes entirely from the ge
 ---
 
 ## Workflow Diagram
-![CenterDistill_Pipeline](CenterDistill Workflow Pipeline.png)
+![CenterDistill_Pipeline](CenterDistill%20Workflow%20Pipeline.png)
 
 ---
 ## How It Works
