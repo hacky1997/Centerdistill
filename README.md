@@ -15,6 +15,8 @@
 
 ¹ University College Cork &nbsp;|&nbsp; ² IIIT Guwahati &nbsp;|&nbsp; ³ Techno India University
 
+![CenterDistill_Pipeline](CenterDistill%20Workflow%20Pipeline.png)
+CenterDistill: induce semantic centers by clustering question embeddings, train a joint center+span student via distillation, and evaluate the behaviour selection policy on the held-out test set.
 </div>
 
 ---
@@ -33,12 +35,6 @@ QA systems return a single answer even when a question is genuinely ambiguous �
 
 No ambiguity labels are required. The training signal comes entirely from the geometry of question embeddings.
 
----
-
-## Workflow Diagram
-![CenterDistill_Pipeline](CenterDistill%20Workflow%20Pipeline.png)
-
-CenterDistill workflow: induce semantic centers by clustering question embeddings, train a joint center+span student via distillation, and evaluate the behaviour selection policy on the held-out test set.
 ---
 ## How It Works
 
