@@ -38,6 +38,7 @@ No ambiguity labels are required. The training signal comes entirely from the ge
 ## Workflow Diagram
 ![CenterDistill_Pipeline](CenterDistill%20Workflow%20Pipeline.png)
 
+CenterDistill workflow: induce semantic centers by clustering question embeddings, train a joint center+span student via distillation, and evaluate the behaviour selection policy on the held-out test set.
 ---
 ## How It Works
 
