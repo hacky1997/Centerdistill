@@ -6,8 +6,10 @@
 
 [![EAAAI 2026](https://img.shields.io/badge/EAAAI-2026-4B6FA8?style=for-the-badge)](https://eaaai.org)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
-[![License: Apache2](https://img.shields.io/badge/license-Apache%202-blue)](LICENSE)
+[![License: Apache2](https://img.shields.io/badge/license-Apache%202-blue?style=for-the-badge)](LICENSE)
 [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/hacky1997/centerdistill/blob/main/notebooks/CenterDistill_Colab.ipynb)
+[![arXiv](XXXX.XXXX](https://arxiv.org/abs/XXXX.XXXX)
+[![DOI](XXXX.XXXX](https://doi.org/XXXX.XXXX)
 
 **Somyajit Chakraborty¹ · Sayak Naskar² · Soham Paul² · Angshuman Jana² · Nilotpal Chakraborty² · Avijit Gayen²·³**
 
@@ -33,6 +35,10 @@ No ambiguity labels are required. The training signal comes entirely from the ge
 
 ---
 
+## Workflow Diagram
+![CenterDistill_Pipeline](CenterDistill Workflow Pipeline.png)
+
+---
 ## How It Works
 
 ```
@@ -245,24 +251,13 @@ Run `python scripts/check_leakage.py` to verify all of the above on your machine
                Ambiguity-Aware Cross-Lingual Question Answering},
   author    = {Chakraborty, Somyajit and Naskar, Sayak and Paul, Soham
                and Jana, Angshuman and Chakraborty, Nilotpal and Gayen, Avijit},
-  booktitle = {Proceedings of EAAAI 2026},
+  booktitle = {CenterDistill: Weakly-Supervised Distillation for Ambiguity-Aware Cross-Lingual QA},
   year      = {2026}
 }
 ```
 
 ---
 
-## References
-
-- P. Lewis et al. *MLQA: Evaluating Cross-Lingual Extractive Question Answering.* ACL 2020.
-- S. Min et al. *AmbigQA: Answering Ambiguous Open-domain Questions.* EMNLP 2020.
-- F. Feng et al. *Language-agnostic BERT Sentence Embedding.* ACL 2022.
-- A. Conneau et al. *Unsupervised Cross-lingual Representation Learning at Scale.* ACL 2020.
-- A. Elgohary et al. *Can You Unpack That? Learning to Rewrite Questions-in-Context.* EMNLP-IJCNLP 2019.
-- M. Aliannejadi et al. *Building and Evaluating Open-Domain Dialogue Corpora with Clarifying Questions.* EMNLP 2021.
-
----
-
 <div align="center">
-Released under the <a href="LICENSE">MIT License</a>
+Distributed under the Apache 2.0 License. See <a href="LICENSE">License</a> for more information. 
 </div>
