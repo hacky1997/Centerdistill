@@ -4,12 +4,12 @@
 
 ### Weakly-Supervised Distillation for Ambiguity-Aware Cross-Lingual Question Answering
 
-[![EAAAI 2026](https://img.shields.io/badge/EAAAI-2026-4B6FA8?style=for-the-badge)](https://eaaai.org)
+[![EAAAI 2026](https://img.shields.io/badge/EAAAI-2026-green?style=for-the-badge)](https://eaaai.org)
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License: Apache2](https://img.shields.io/badge/license-Apache%202-blue?style=for-the-badge)](LICENSE)
 [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/hacky1997/centerdistill/blob/main/notebooks/CenterDistill_Colab.ipynb)
 [![arXiv](https://img.shields.io/badge/Arxiv-XXXX.XXXX-red?style=for-the-badge)](https://arxiv.org/abs/xxxx.xxxx)
-[![DOI](https://img.shields.io/badge/DOI-XXXX.XXXX-green?style=for-the-badge)](https://doi.org/XXXX.XXXX)
+[![DOI](https://img.shields.io/badge/DOI-XXXX.XXXX-FF2200?style=for-the-badge)](https://doi.org/XXXX.XXXX)
 
 **Somyajit Chakraborty¹ · Sayak Naskar² · Soham Paul² · Angshuman Jana² · Nilotpal Chakraborty² · Avijit Gayen²·³**
 
