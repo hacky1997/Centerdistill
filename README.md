@@ -9,8 +9,7 @@
 [![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-AD1D7D?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
 [![License](https://img.shields.io/badge/license-Apache%202-blue?style=for-the-badge&logo=apache&logoColor=white)](LICENSE)
 [![Open in Colab](https://img.shields.io/badge/Open%20in-Colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/hacky1997/centerdistill/blob/main/notebooks/CenterDistill_Colab.ipynb)
-<! -- [![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--31141--2__11-FF6C37?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.1007/978-3-032-31141-2_11)
-[![DOI](https://img.shields.io/badge/DOI-blue?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.1007/978-3-032-31141-2_11) -->
+[![DOI](https://img.shields.io/badge/DOI-10.1007%2F978--3--032--31141--2__11-FF6C37?style=for-the-badge&logo=doi&logoColor=white)](https://doi.org/10.1007/978-3-032-31141-2_11)
 
 **Somyajit Chakraborty¹ · Sayak Naskar² · Soham Paul² · Angshuman Jana² · Nilotpal Chakraborty² · Avijit Gayen²·³**
 
